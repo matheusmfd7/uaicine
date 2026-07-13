@@ -1,0 +1,108 @@
+.series-details {
+
+  min-height: 100vh;
+
+  background-color: #14213d;
+
+  color: white;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  text-align: center;
+
+  padding: 40px;
+
+  animation: aparecer 0.5s ease;
+
+}
+
+
+.series-details img {
+
+  width: 300px;
+
+  height: auto;
+
+  border-radius: 15px;
+
+  margin-bottom: 25px;
+
+}
+
+
+.series-info {
+
+  max-width: 800px;
+
+}
+
+
+.series-info h1 {
+
+  font-size: 40px;
+
+  margin-bottom: 10px;
+
+}
+
+
+.series-info h3 {
+
+  color: #fca311;
+
+}
+
+
+.series-info h2 {
+
+  margin-top: 30px;
+
+  color: #fca311;
+
+}
+
+
+.series-info p {
+
+  font-size: 18px;
+
+  line-height: 1.7;
+
+}
+
+
+.loading {
+
+  color: white;
+
+  text-align: center;
+
+}
+
+
+@keyframes aparecer {
+
+  from {
+
+    opacity: 0;
+
+    transform: translateY(20px);
+
+  }
+
+
+  to {
+
+    opacity: 1;
+
+    transform: translateY(0);
+
+  }
+
+}

@@ -1,0 +1,128 @@
+.movie-card {
+
+  width: 180px;
+
+  margin: 15px;
+
+  text-align: center;
+
+  transition: transform 0.3s ease;
+
+}
+
+
+.movie-card:hover {
+
+  transform: translateY(-12px) scale(1.05);
+
+}
+
+
+
+/* Cartaz */
+
+.movie-card img {
+
+  width: 100%;
+
+  height: 270px;
+
+  object-fit: cover;
+
+  border-radius: 10px;
+
+  transition: 0.3s ease;
+
+}
+
+
+
+.movie-card:hover img {
+
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+
+}
+
+
+
+/* Título */
+
+.movie-card h3 {
+
+  color: white;
+
+  font-size: 1rem;
+
+  text-align: center;
+
+  margin-top: 10px;
+
+  min-height: 40px;
+
+}
+
+
+
+/* Sem imagem */
+
+.no-image {
+
+  width: 180px;
+
+  height: 270px;
+
+  background-color: #333;
+
+  color: white;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  border-radius: 10px;
+
+}
+
+
+
+/* Botão detalhes */
+
+.details-button {
+
+  display: block;
+
+  margin: 15px auto;
+
+  background-color: #fca311;
+
+  color: white;
+
+  border: none;
+
+  padding: 10px 25px;
+
+  border-radius: 8px;
+
+  font-size: 16px;
+
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+
+}
+
+
+
+.details-button:hover {
+
+  background-color: #ffb703;
+
+  transform: scale(1.1);
+
+  box-shadow: 0 5px 15px rgba(252, 163, 17, 0.5);
+
+}
